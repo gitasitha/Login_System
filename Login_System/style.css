@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #3f3f3f;
+}
+
+li {
+float: left;
+}
+
+li:last-child {
+border-right: none;
+}
+
+ li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.active {
+background-color: #04AA6D;
+}
+
+/**css for form */
+input[type=text],input[type=password], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+button {
+width: 40%;
+background-color:rgb(81, 111, 245);
+color: white;
+font-size: 18px;
+padding: 10px 5px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-weight: bold;
+}
+
+input[type=submit]:hover {
+background-color:rgb(22, 113, 199);
+}
+
+.login_form{
+    width:20%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding:50px 20px;
+    background-color: #f2f2f2;
+    margin-top:50px;
+    border-radius: 10px;
+
+}
+
+.signup_form{
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding:50px 20px;
+    background-color: #f2f2f2;
+    margin-top:50px;
+    border-radius: 10px;
+}
+
+form button:hover{
+    background-color:rgb(27, 57, 194);
+}
+
+.error{
+   color:rgb(250, 2, 2);
+   padding:12px;
+   font-size:15px;
+   margin: bottom 10px; 
+}
